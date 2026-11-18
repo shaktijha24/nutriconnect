@@ -1,0 +1,31 @@
+{
+  "name": "nutriconnect",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NutriConnect - Dietician Consultation Marketplace (Next.js + MongoDB)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node --env-file=.env scripts/seed.mjs"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jose": "^5.9.6",
+    "lucide-react": "^0.460.0",
+    "mammoth": "^1.13.0",
+    "mongoose": "^8.8.0",
+    "next": "^14.2.33",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "unpdf": "^1.9.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  }
+}
